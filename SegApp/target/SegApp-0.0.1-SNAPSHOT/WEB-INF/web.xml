@@ -1,0 +1,16 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+      version="3.0">
+  <display-name>Archetype Created Web Application</display-name>
+  
+  <servlet>
+  	<servlet-name>Interno</servlet-name>
+  	<servlet-class>interno.ServletInterno</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>Interno</servlet-name>
+  	<url-pattern>/interno/p</url-pattern>
+  </servlet-mapping>
+</web-app>
